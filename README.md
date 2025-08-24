@@ -1,5 +1,9 @@
 # Full Stack Social Media App
 
+<!-- Add the course description image here if available -->
+<!-- ![Course Description Image](./image.webp) -->
+<p align="center"><img align="center" width="700" src="./image.webp"/></p>
+
 This is a full-stack social media application built using **React Native** and **Supabase**. The project was developed following the "Build Full Stack Social Media App in React Native with Supabase" course, which covers essential features for a modern social media platform. The app is designed to be responsive, feature-rich, and compatible across multiple platforms.
 
 ## Features
@@ -67,8 +71,4 @@ This is a full-stack social media application built using **React Native** and *
 - **Create Posts**: Use the rich text editor to compose posts and upload media.
 - **Interact**: Like, comment, and share posts in real-time.
 - **Profile**: View and manage your profile with uploaded media and activity.
-
-<!-- Add the course description image here if available -->
-<!-- ![Course Description Image](./image.webp) -->
-<p align="center"><img align="center" width="700" src="./image.webp"/></p>
 
