@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# Full Stack Social Media App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a full-stack social media application built using **React Native** and **Supabase**. The project was developed following the "Build Full Stack Social Media App in React Native with Supabase" course, which covers essential features for a modern social media platform. The app is designed to be responsive, feature-rich, and compatible across multiple platforms.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Responsiveness**: The app adapts seamlessly to different screen sizes and orientations, ensuring a great user experience on both Android and iOS devices.
+- **Rich Text Editor**: Users can create posts with formatted text, including bold, italics, lists, and hyperlinks, using an integrated rich text editor.
+- **Realtime Updates**: The app leverages Supabase's real-time capabilities to provide instant updates for posts, likes, comments, and notifications.
+- **Media Uploading**: Users can upload images and videos to enhance their posts.
+- **Media Sharing**: Share uploaded media content with other users directly within the app.
+- **Image Caching**: Implements image caching to improve performance by reducing load times for frequently accessed media.
+- **SVG Icons**: Utilizes scalable vector graphics (SVG) icons for a lightweight and customizable user interface.
+- **Cross-Platform Compatibility**: Built with React Native, the app runs smoothly on both web, Android, and iOS platforms.
 
+## Technologies Used
+
+- **React Native**: A framework for building native mobile apps using JavaScript and React.
+- **Supabase**: An open-source backend-as-a-service providing authentication, a PostgreSQL database, real-time subscriptions, and file storage.
+- **Expo**: Used for managing the React Native development environment and cross-platform deployment.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- Expo CLI
+- A Supabase account and project (for backend services)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Set up environment variables:
+   - Create a `.env` file in the root directory.
+   - Add your Supabase project credentials:
+     ```
+     SUPABASE_URL=your-supabase-url
+     SUPABASE_ANON_KEY=your-supabase-anon-key
+     ```
 
+4. Start the development server:
    ```bash
-   npx expo start
+   npx expo run:android -d
+   ```
+   ```bash
+   npx expo run:ios -d
    ```
 
-In the output, you'll find options to open the app in a
+### Running the App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Use the Expo Go app on your mobile device or an emulator to scan the QR code displayed in the terminal.
+- Alternatively, press `a` to run on Android or `i` for iOS in the terminal.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Usage
 
-## Get a fresh project
+- **Sign Up/Login**: Register or log in using email and password (or social login if configured).
+- **Create Posts**: Use the rich text editor to compose posts and upload media.
+- **Interact**: Like, comment, and share posts in real-time.
+- **Profile**: View and manage your profile with uploaded media and activity.
 
-When you're ready, run:
+<!-- Add the course description image here if available -->
+<!-- ![Course Description Image](./image.webp) -->
+<p align="center"><img align="center" width="700" src="./image.webp"/></p>
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
