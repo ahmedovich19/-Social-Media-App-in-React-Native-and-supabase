@@ -70,3 +70,5 @@ This is a full-stack social media application built using **React Native** and *
 
 <!-- Add the course description image here if available -->
 <!-- ![Course Description Image](./image.webp) -->
+<p align="center"><img align="center" width="700" src="./image.webp"/></p>
+
